@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 
 # plt.style.use("fivethirtyeight")
-plt.xkcd() # This is awesome
+plt.xkcd()  # This is awesome
 
 # print(plt.style.available)
 
@@ -36,7 +36,7 @@ plt.plot(
 )
 
 
-plt.bar(
+plt.plot(
     ages_x, dev_y,
     linestyle='--',
     label="All devs",
