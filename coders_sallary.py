@@ -1,8 +1,8 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
-plt.style.use("fivethirtyeight")
-# plt.xkcd()  # This is awesome
+# plt.style.use("fivethirtyeight")
+plt.xkcd()  # This is awesome
 
 # print(plt.style.available)
 
